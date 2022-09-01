@@ -1,0 +1,22 @@
+{
+  "name": "intro-to-ddd",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Itera/intro-to-ddd",
+  "scripts": {
+    "dev": "nodemon --exec 'npm start' --watch ./src",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal.js": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "parcel": "^2.7.0"
+  }
+}

@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Intro to DDD</title>
+
+  <script src="./index.js" type="module"></script>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>
+          Intro to DDD
+          <span style="display: block; font-size: 32px; font-weight: normal; text-transform: none;">
+            by Tin Anh Nguyen
+          </span>
+        </h1>
+      </section>
+      <section>
+        <h2>Table of Contents</h2>
+        <ul>
+          <li>What</li>
+          <li>Why</li>
+          <li>How</li>
+        </ul>
+      </section>
+      <section>
+        <section>
+          <h2>What is DDD?</h2>
+        </section>
+        <section data-auto-animate>
+          <h3>Domain-Driven Design</h3>
+        </section>
+        <section data-auto-animate>
+          <h3>Domain-Driven Design</h3>
+          <div style="display: flex; gap: 32px">
+            <ul>
+              <li>Coined by Eric Evans</li>
+              <li>Presented in "The Blue Book"</li>
+              <li>Published in 2003</li>
+            </ul>
+            <div>
+              <img
+                src="./img/ddd-book.png"
+                alt="Domain-Driven Design by Eric Evans" />
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3>Boils down to a single idea</h3>
+          <p style="font-size: 0.9em">
+            <em>The implementation model should reflect the domain model</em>
+          </p>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>Why do DDD?</h2>
+        </section>
+        <section data-auto-animate>
+          <h3>Ubiquitous Language</h3>
+          <ul>
+            <li>Shared language</li>
+            <li>Communicate with experts</li>
+            <li>Less misunderstandings</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <h3>Ubiquitous Language</h3>
+          <img
+            src="img/ddd-ubiquitous-language.png"
+            alt="Conversations with and without DDD"
+            style="height: 560px"
+          />
+        </section>
+        <section>
+          <h3>Explicit Insights</h3>
+          <ul>
+            <li>Model captures insights</li>
+            <li>Learn domain more quickly</li>
+            <li>Shorten on-boarding time</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <h3>Flexibility</h3>
+          <ul>
+            <li>Alignment with business</li>
+            <li>React to changes more easily</li>
+            <li>Discover new opportunities</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <h3>Flexibility</h3>
+          <img
+            src="./img//ddd-productivity.png"
+            alt="Graph showing productivity with and without DDD"
+          />
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>How to do DDD?</h2>
+        </section>
+        <section data-auto-animate>
+          <h3>Continuous Refactoring</h3>
+          <ul>
+            <li>Talk to domain expert</li>
+            <li>Crunch knowledge</li>
+            <li>Refine model</li>
+            <li class="fragment">Repeat the process</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <h3>Continuous Refactoring</h3>
+          <img
+            src="./img/ddd-refinement.png"
+            alt="Continuous refinement of ubiquitious language"
+            style="height: 560px"
+          />
+        </section>
+        <section data-auto-animate>
+          <h3>Continuous Refactoring</h3>
+          <img
+            src="./img/ddd-design-complexity.png"
+            alt="Perfect design versus over- and underdesign"
+          />
+        </section>
+        <section data-auto-animate>
+          <h3>Continuous Refactoring</h3>
+          <img
+            src="./img/ddd-simplified-model.png"
+            alt="Example of a simplified but effective model"
+            style="height: 560px"
+          />
+        </section>
+        <section>
+          <h3>Modeling techniques</h3>
+          <div style="display: flex; gap: 32px; font-size: 0.9em;">
+            <ul style="width: 70%">
+              <li class="fragment" data-fragment-index="0">
+                Knowledge Crunching
+                <ul style="font-size: 0.9em">
+                  <li>
+                    <a href="https://domainstorytelling.org/">
+                      Domain Storytelling
+                    </a>
+                  </li>
+                  <li class="fragment" data-fragment-index="1">
+                    <a href="https://www.eventstorming.com/">Event Storming</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="fragment" data-fragment-index="2">
+                Implementation
+                <ul style="font-size: 0.9em">
+                  <li>Strategic Design</li>
+                  <li class="fragment" data-fragment-index="3">
+                    Tactical Design
+                  </li>
+                </ul>
+              </li>
+              <li class="fragment" data-fragment-index="4">
+                Supporting
+                <ul style="font-size: 0.9em">
+                  <li>Object-oriented programming</li>
+                  <li>Hexagonal architecture</li>
+                  <li>Event-driven architecture</li>
+                </ul>
+              </li>
+            </ul>
+            <div class="r-stack">
+              <img
+                class="fragment current-visible"
+                src="./img/domain-storytelling.gif"
+                alt="Domain Storytelling example"
+                style="height: 560px"
+                data-fragment-index="0"
+              />
+              <img
+                class="fragment current-visible"
+                src="./img/event-storming.png"
+                alt="Event Storming example"
+                data-fragment-index="1"
+              />
+              <img
+                class="fragment current-visible"
+                src="./img/ddd-strategic-design.png"
+                alt="Overview of concepts in tactical design"
+                style="height: 560px"
+                data-fragment-index="2"
+              />
+              <img
+                class="fragment current-visible"
+                src="./img/ddd-tactical-design.png"
+                alt="Overview of concepts in tactical design"
+                style="height: 560px"
+                data-fragment-index="3"
+              />
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <section>
+          <h2>When to do DDD?</h2>
+        </section>
+        <section>
+          <h3>Always</h3>
+          <p class="fragment">
+            Unless you're creating a throwaway application
+          </p>
+        </section>
+        <section>
+          <h3>Team Might Not Do DDD</h3>
+          <p>Doesn't mean that you can't</p>
+        </section>
+      </section>
+      <section>
+        <h2>Thank you for listening</h2>
+        <p class="fragment">
+          Join us at
+          <a href="https://iterano.slack.com/archives/C03HTD1L5KM">#learn-ddd</a>
+          to learn more!
+        </p>
+      </section>
+      <section>
+        <h2>Credits</h2>
+        <ul style="font-size: 0.85em">
+          <li>
+            Graphs taken from DDD course held for Itera by
+            <a href="https://www.eventstore.com/">Event Store</a>
+          </li>
+          <li>
+            Illustrations taken from
+            <a href="https://leanpub.com/theanatomyofdomain-drivendesign">
+              <cite style="font-style: italic">
+                The Anatomy of Domain Driven Design
+              </cite>
+              by Scott Millet
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
