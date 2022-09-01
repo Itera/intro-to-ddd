@@ -2,7 +2,7 @@
   "name": "intro-to-ddd",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Itera/intro-to-ddd",
+  "homepage": "https://itera.github.io/intro-to-ddd",
   "scripts": {
     "dev": "nodemon --exec 'npm start' --watch ./src",
     "start": "parcel ./src/index.html",
